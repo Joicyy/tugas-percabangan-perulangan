@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    /* Background Merah Maroon Gelap */
+    background-color: #2b0407;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    /* Tema Dark Acrylic (Glassmorphism) */
+    background: rgba(18, 18, 18, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+    
+    padding: 30px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 500px;
+    color: #f0f0f0;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #aaaaaa;
+    font-size: 0.9em;
+    margin-bottom: 25px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+label {
+    font-weight: 500;
+    color: #dddddd;
+}
+
+input {
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    font-size: 15px;
+    color: #ffffff;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #a82424;
+}
+
+input::placeholder {
+    color: #888888;
+}
+
+button {
+    padding: 12px 15px;
+    background-color: #80121a;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a81c26;
+}
+
+.output-section h3 {
+    font-size: 1.1em;
+    color: #ffffff;
+}
